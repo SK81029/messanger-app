@@ -1,0 +1,57 @@
+.app-container{
+  display: flex;
+}
+
+.header-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contentArea{
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-bottom: 100px;
+}
+
+.sidebar{
+  min-height: 700px;
+}
+
+.myPostCard{
+  margin: 15px 20px;
+  padding: 10px;
+  background-color: rgb(245, 232, 213);
+}
+
+.hasTag{
+  margin: 0px 3px;
+}
+.titalName{
+  color: rgb(72, 40, 2);
+  font-weight: 500;
+}
+.bodyColor{
+  background-color: rgb(241, 237, 231);
+}
+.reaction{
+  margin: 15px -15px -15px -15px;
+  padding: 7px;
+}
+
+.creatpost{
+  width: 65%;
+  margin: 25px;
+}
+
+.welcomeMessage{
+  margin-top: 80px;
+  color: rgb(41, 1, 1);
+}
+
+.logInpage{
+  margin-top: 40px;
+  max-width: 350px;
+  text-align: center;
+  margin-left: 150px;
+  color: rgb(41, 1, 1);
+}
